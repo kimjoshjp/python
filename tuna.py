@@ -2,7 +2,7 @@
 #
 #
 #
-#
+#Loop. if elif else
 
 tuna = "sarmon"
 if tuna == "bass":

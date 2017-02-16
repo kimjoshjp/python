@@ -1,6 +1,13 @@
 #
 #
-# function
+#
+#
+#
 
+import os
 
-def pyfunc():
+if os.path.isdir("/tmp"):
+    print "/tmp is a dir"
+
+else:
+    print "/tmp is not a dir"

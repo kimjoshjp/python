@@ -6,3 +6,4 @@ mango
 cherry
 mayo
 sanma
+tuna

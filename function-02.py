@@ -1,9 +1,22 @@
 #
 #
-#
+# Function with loop
+
+##
 
 
-def py_func():
-	print('Hello Python')
-        for i in range(5):
-py_func()
+def py_func(x):
+    for a in range(5):
+        print 'Hello' + x
+
+print py_func('Kazu')
+print py_func('Kim')
+
+##
+
+
+def profile():
+    for a in range(5):
+        print 'Hello Kitty \n'
+
+profile()

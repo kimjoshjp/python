@@ -1,7 +1,0 @@
-apple
-lemon
-lime
-banana
-mango
-cherry
-mayo

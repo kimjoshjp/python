@@ -9,6 +9,9 @@ def whatsup(x):
     return 'Whats up ' + x
 print whatsup('Kazu')
 
+def whatsup_2(y):
+	return 'How dy ' + y
+print whatsup_2('Cooky')
 ###
 
 

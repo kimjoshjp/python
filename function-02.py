@@ -20,3 +20,9 @@ def profile():
         print 'Hello Kitty \n'
 
 profile()
+
+
+def print_func(x):
+    print 'Hello : ' + x
+
+print_func("Kazu")

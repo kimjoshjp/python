@@ -15,11 +15,22 @@ print xyz
 fob.close()
 
 
-############ Open up file with read mode
-fob = open('/Users/kazu/python/apple.txt', 'r')
+# Open up file with read mode
+fob = open('/Users/kazu/GitHub/python/python/apple.txt', 'r')
 
-# Read All files
-for abc in iter(fob):
-    print abc
+# Put them into listme
+listme = fob.readlines()
+#fob.close()
+
+# Repalce Orange with banana with \n
+listme[3] = "Orange\n"
+
+#Open up again and re-write line and close
+fob = open('/Users/kazu/GitHub/python/python/apple.txt', 'w')
+fob.writelines(listme)
 fob.close()
 
+# Read All files
+# for abc in iter(fob):
+#    print abc
+# fob.close()

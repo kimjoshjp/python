@@ -1,9 +1,3 @@
-#
-#
-#
-#
-# Server name
-
 ctcc-dev-gc.rcs.griffith.edu.au
 ersconf-tst-gc.rcs.griffith.edu.au
 ersgameon-dev-gc.rcs.griffith.edu.au

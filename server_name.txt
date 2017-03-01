@@ -1,0 +1,22 @@
+#
+#
+#
+#
+# Server name
+
+ctcc-dev-gc.rcs.griffith.edu.au
+ersconf-tst-gc.rcs.griffith.edu.au
+ersgameon-dev-gc.rcs.griffith.edu.au
+ershpcptl-dev-gc.rcs.griffith.edu.au
+ersjenkins-tst-gc.rcs.griffith.edu.au
+ersmysql-dev-gc.rcs.griffith.edu.au
+ersncarf-dev-gc.rcs.griffith.edu.au
+erssurvey-dev-gc.rcs.griffith.edu.au
+gc-dev-binrepos.rcs.griffith.edu.au
+gc-dev-ersatlass.itc.griffith.edu.au
+gc-dev-ersblurr.rcs.griffith.edu.au
+gc-dev-ersnimrod.rcs.griffith.edu.au
+micro-dev-na.itc.griffith.edu.au
+na-dev-ceps.itc.griffith.edu.au
+na-dev-nbweb.rcs.griffith.edu.au
+na-tst-columbus.rcs.griffith.edu.au

@@ -11,7 +11,7 @@ class Coles:
     var_1 = "apple"
     var_2 = "banana"
     var_3 = "beer"
-    var_4 = 'saake"'
+    var_4 = 'sake'
 
 # Define Child class of parents.
 

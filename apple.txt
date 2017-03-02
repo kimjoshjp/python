@@ -7,3 +7,4 @@ cherry
 mayo
 sanma
 tuna
+wine

@@ -17,7 +17,7 @@ class Coles:
 
 
 class Child(Coles):
-    var_3 = "sake"
+    var_3 = "cake"
 
 # Create Object name from class
 pob = Coles()

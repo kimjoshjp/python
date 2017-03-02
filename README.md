@@ -1,2 +1,6 @@
-# python
-study python programming 
+#
+#
+#
+#
+#
+Study python 2,3 programming

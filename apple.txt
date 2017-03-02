@@ -8,3 +8,4 @@ mayo
 sanma
 tuna
 wine
+beer

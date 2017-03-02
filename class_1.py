@@ -11,6 +11,7 @@ class Coles:
     var_1 = "apple"
     var_2 = "banana"
     var_3 = "beer"
+    var_4 = 'saake"'
 
 # Define Child class of parents.
 
@@ -26,6 +27,7 @@ cob = Child()
 print pob.var_1
 print pob.var_2
 print pob.var_3
+print pob.var_4
 
 # Child Object method
 print cob.var_3

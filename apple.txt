@@ -9,3 +9,4 @@ sanma
 tuna
 wine
 beer
+sake

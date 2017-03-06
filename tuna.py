@@ -21,3 +21,15 @@ if fish_1 == "sarmon":
 
 # else:
 #    print 'I dont know what is'
+
+age = 21
+name = "Tom"
+
+if name == "Kazu":
+	print"Hey that you"
+
+elif name == "Lucy":
+	print "Bugger"
+
+else:
+	print "Please sign up"

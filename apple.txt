@@ -7,3 +7,6 @@ cherry
 mayo
 sanma
 tuna
+wine
+beer
+sake

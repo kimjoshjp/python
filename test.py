@@ -11,11 +11,15 @@ print ramen
 
 print '-----------------------'
 
+# Adding sushi on ramen list
+ramen.append("sushi")
+
 for i in ramen:
     print i
 
 #
-dictEx = ({"Age":35,"Height":177,"Weight":75})
+dictEx = {"Age": 35, "Height": 177, "Weight": 75}
 print dictEx
 print dictEx.get("Height")
 print dictEx.items()
+

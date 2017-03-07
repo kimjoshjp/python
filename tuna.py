@@ -11,7 +11,7 @@ if fish_1 == "sarmon":
     if fish_2 == "maguro":
         print 'They are best.'
     else:
-    	print 'I dont know what is'
+        print 'I dont know what is'
 
 # elif fish_2 == "tuna":
 #    print 'Happy Tuna'
@@ -26,10 +26,10 @@ age = 21
 name = "Tom"
 
 if name == "Kazu":
-	print"Hey that you"
+    print"Hey that you"
 
 elif name == "Lucy":
-	print "Bugger"
+    print "Bugger"
 
 else:
-	print "Please sign up"
+    print "Please sign up"

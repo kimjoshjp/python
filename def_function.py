@@ -7,7 +7,7 @@
 
 def whatsup(x):
     return 'Whats up ' + x
-whatsup("Kazu")
+print whatsup("Kazu")
 
 
 def whatsup_2(y):

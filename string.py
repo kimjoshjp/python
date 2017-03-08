@@ -36,3 +36,15 @@ print(fuku)
 
 last = name[10:]
 print(last)
+
+# String length
+phrase = """
+It is a really long string triple-quoted strings are used  to define multi-line strings
+"""
+
+first_half = phrase[0:len(
+    phrase)/2]
+print(first_half)
+
+print('It\'s me')            # need \ with sigle quotation
+print("She said \"Hello\"")  # need \ with double quotation

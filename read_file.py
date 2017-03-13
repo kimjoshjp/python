@@ -35,7 +35,7 @@ fob.close()
 #    print abc
 # fob.close()
 
-zoo = ["lion", "monky", "elephant"]
+zoo = ["\nlion\n", "monky\n", "elephant\n"]
 if __name__ == '__main__':
     f = open('/Users/kazu/GitHub/python/python/a.txt', 'a')
     f.writelines(zoo)

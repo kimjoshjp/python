@@ -1,1 +1,5 @@
-Welocme to Python lionmonkyelephant
+Welocme to Python
+
+lion
+monky
+elephant

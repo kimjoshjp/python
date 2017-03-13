@@ -35,10 +35,8 @@ fob.close()
 #    print abc
 # fob.close()
 
-zoo = ['lion', 'monky', 'elephant']
+zoo = ["lion", "monky", "elephant"]
 if __name__ == '__main__':
     f = open('/Users/kazu/GitHub/python/python/a.txt', 'a')
-
-    for a in zoo:
-        f.writelines(zoo)
+    f.writelines(zoo)
     f.close()

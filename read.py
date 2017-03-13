@@ -6,6 +6,7 @@
 
 # Create File OBJ and sepecify path with write mode
 
+#Open up file and write and close
 fob = open('/Users/kazu/GitHub/python/python/a.txt', 'w')
 fob.write('Welocme to Python World')
 fob.close()

@@ -30,21 +30,21 @@ exclamation = long_string[-1]
 print(exclamation)
 
 # String slice
-name = "Fukushige Kazunori"
-fuku = name[:9]
+last_name = "Fukushige Kazunori"
+fuku = last_name[:9]
 print(fuku)
 
-last = name[10:]
-print(last)
+first_name = last_name[10:]
+print(first_name)
 
-# String length
-phrase = """
-It is a really long string triple-quoted strings are used  to define multi-line strings
-"""
-
-first_half = phrase[0:len(
-    phrase)/2]
-print(first_half)
-
-print('It\'s me')            # need \ with sigle quotation
-print("She said \"Hello\"")  # need \ with double quotation
+### list
+list_01 = ["z","a","c","g","j"]
+print(list_01)
+list_01[2] = "C"   #update c->C
+print(list_01)
+print sorted(list_01)   #sorting
+list_01.append('h')     #append h on last
+print list_01
+list_01.insert(1,'b')   #insert b at 'i' index
+print list_01
+print len(list_01)

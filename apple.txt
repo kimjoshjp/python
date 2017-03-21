@@ -1,0 +1,12 @@
+apple
+lemon
+lime
+Orange
+mango
+cherry
+mayo
+sanma
+tuna
+wine
+beer
+sake

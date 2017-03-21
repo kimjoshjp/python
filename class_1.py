@@ -24,11 +24,11 @@ pob = Coles()
 cob = Child()
 
 # Parents Coles. object.method
-print pob.var_1
-print pob.var_2
-print pob.var_3
-print pob.var_4
+print (pob.var_1)
+print (pob.var_2)
+print (pob.var_3)
+print (pob.var_4)
 
 # Child Object method
-print cob.var_3
+print (cob.var_3)
 

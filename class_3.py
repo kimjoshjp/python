@@ -9,7 +9,7 @@ class Myclass:
     var_1 = 100
     var_2 = 200
 
-    def foo(selt):
+    def foo(self):
         print("Hello from function foo")
 
 obj_1 = Myclass() 	#Create obj_1 from Myclass

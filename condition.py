@@ -3,7 +3,7 @@
 #
 # Condition
 
-yourAge = int(raw_input("How old are you:"))
+yourAge = int(input("How old are you:"))
 
 if (yourAge > 0) and (yourAge < 120):
     if (yourAge == 47):

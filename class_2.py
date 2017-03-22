@@ -24,9 +24,9 @@ happy_obj = Kids()
 
 
 # Create method
-print happy_obj.dad_1
-print happy_obj.mon_2
-print happy_obj.kids_1
+print (happy_obj.dad_1)
+print (happy_obj.mon_2)
+print (happy_obj.kids_1)
 
 #################################
 
@@ -36,7 +36,7 @@ class new:
     """ new class """
 
     def __init__(self):
-        print "This is constructor"
-        print "This also print out."
+        print ("This is constructor")
+        print ("This also print out.")
 
 obj = new()

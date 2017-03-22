@@ -7,30 +7,23 @@
 
 def whatsup(x):
     return 'Whats up ' + x
-print whatsup("Kazu")
+print (whatsup('Kazu'))   #What's up Kazu
 
-
-def whatsup_2(y):
-    return 'How dy ' + y
-print whatsup_2('Cooky')
-###
 
 def plusten(y):
     return y+10
-plusten(320)
-
-###
+print (plusten(320))  #answer is 330
 
 
-def name(first, last):
-    print ("%s %s") % (first, last)
-name('Kazu', 'Fukushige')
+#def name(first, last):
+#    print ("%s %s") % (first, last)
+#name('Kazu', 'Fukushige')
 
 
 ###
-def name_1(first='Melita', last='Smith'):
-    print ("%s %s") % (first, last)
-name_1(first='Kate')
+#def name_1(first='Melita', last='Smith'):
+#    print ("%s %s") % (first, last)
+#name_1(first='Kate')
 
 
 def list(*food):
@@ -54,4 +47,4 @@ def profile_2(first, last, *ages, **items):
     print ("ages")
     print ("items")
 
-profile_2('Kazu', 'Fukushige', 18, 23, 24, 44, 55, lime=10, banna=10)
+print (profile_2('Kazu', 'Fukushige', 18, 23, 24, 44, 55, lime=10, banna=10))

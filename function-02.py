@@ -2,27 +2,21 @@
 #
 # Function with loop
 
-##
-
 
 def py_func(x):
     for a in range(5):
-        print 'Hello' + x
+        return 'Hello ' + x
+print (py_func('Kazu'))  #Display Kazu
+print (py_func('Kim'))
 
-print py_func('Kazu')
-print py_func('Kim')
-
-##
 
 
 def profile():
     for a in range(5):
-        print 'Hello Kitty \n'
-
+        print ("Hello Kitty!\n") #Display Hello kitty with return
 profile()
 
 
 def print_func(x):
-    print 'Hello : ' + x
-
-print_func("Kazu")
+    return "Hello: " + x
+print (print_func("Kazu"))  #Display Hello Kazu

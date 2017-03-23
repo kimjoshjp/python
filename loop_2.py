@@ -3,7 +3,7 @@
 #
 #
 #
-mem = {'Josh':18,
+member = {'Josh':18,
        'Matt':23,
        'Alex':13,
        'Kim':40,
@@ -11,5 +11,5 @@ mem = {'Josh':18,
        #'Dick':55,
 }
 
-aaa = mem.get('Dick', 'Unknown')
-print ('Dick is %s years old' % aaa)
+aaa = member.get('Dick', 'Unknown') # If Dick is not listed in member lists then display Unknown
+print ("Dick is %s years old" % aaa)

@@ -1,8 +1,17 @@
-def FirstFactorial(num):
-    return (4 * 3 * 2 * 1) * num
+#
+#
+#
+#
+#
+num_1 = 100
+num_2 = 100
 
-num = 4
+if num_1 > num_2:
+    print ("num_1 is bigger thatn num2")
 
-# keep this function call here
+elif num_2 > num_1:
+    print("num_2 is bigger than num_1")
 
-print (FirstFactorial)
+else:
+    print("both number are equal")
+

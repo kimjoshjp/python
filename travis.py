@@ -4,7 +4,7 @@
 #
 # Travis game / Remove name and Register
 
-known_user = ["Alice","Bob","Claire","Don","Erick","Fred","Georgia","Harry"]
+known_user = ["Alex","Bob","Claire","Don","Erick","Fred","Georgia","Harry"]
 user_number = len(known_user) # number of users
 
 while True:

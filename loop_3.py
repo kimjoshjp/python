@@ -2,9 +2,9 @@
 #
 #
 #
-L = []
-while len(L) < 3:
+answer = []
+while len(answer) < 3:
     new_name = input("Please add a new name: ").strip().capitalize()
-    L.append(new_name)
+    answer.append(new_name)
 
 print("Sorry list is full")

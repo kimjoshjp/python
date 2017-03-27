@@ -1,25 +1,24 @@
 #
 #
 #
+#
+#
 
-# print 'Please input ypur name'
-#input = raw_input('What is your name')
-# print 'Hello', input
 
 ramen = ['red', 'blue', 'black']
-print ramen
+print (ramen)
 
-print '-----------------------'
+print ('-----------------------')
 
 # Adding sushi on ramen list
 ramen.append("sushi")
 
-for i in ramen:
-    print i
+for menu in ramen:
+    print (menu)
 
 #
 dictEx = {"Age": 35, "Height": 177, "Weight": 75}
-print dictEx
-print dictEx.get("Height")
-print dictEx.items()
+print (dictEx)                  #print out dictEx
+print (dictEx.get("Height"))    #printout value of Height
+print (dictEx.items())          #
 

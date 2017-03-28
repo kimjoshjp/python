@@ -1,0 +1,9 @@
+Welocme to Python
+
+lion
+monky
+elephant
+
+lion
+monky
+elephant

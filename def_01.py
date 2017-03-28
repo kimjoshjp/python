@@ -2,15 +2,16 @@
 #
 #
 #
-# Def with unpaking param
+# Def with unpacking param
+
+number_1 = int(input("Please input first number?:"))    #Enter first number
+number_2 = int(input("Please input second number?:"))
+
+total = number_1 * number_2
 
 
-def add(*numbers):
-    total = 0
-    for number in numbers:
-        total = total + number
-        return total
+print (total)
 
-add (1,2,3,4,5,6,7,8,9)
+
 
 

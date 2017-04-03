@@ -5,7 +5,7 @@
 #
 
 # ages and number of seats
-films ={"Finding Dory":[5,5],
+films ={"Dory":[5,5],
        "Bourne":[18,5],
        "Tarzan":[16,5],
        "Ghost":[12,5]

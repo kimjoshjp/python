@@ -16,14 +16,6 @@ elif fish_2 == "maguro":
 else:
     print("I dont know what is")
 
-# elif fish_2 == "tuna":
-#    print 'Happy Tuna'
-#
-# elif fish_1 == "shrimp":
-#    print 'Yeah this is Shrimp'
-
-# else:
-#    print 'I dont know what is'
 
 age = 21
 name = "Tom"

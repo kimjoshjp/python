@@ -4,11 +4,17 @@
 #
 # Output file name within Directory
 
-import os, sys
+import os, sys, datetime
 
-path = "/Users/kazu/GitHub/python/"
-dirs = os.listdir( path )
+filenames  = ["/Users/kazu/GitHub/python/file1.txt", "/Users/kazu/GitHub/python/file2.txt", "/Users/kazu/GitHub/python/file3.txt"]
 
-for a in dirs:
-    print (a)
+new_filename = datetime.datetime.now()
 
+with open("/Users/kazu/GitHub/python/file4.txt", 'w') as outfile:
+    for fname in filenames:
+        with open(fname) as infile:
+            for line in infile:
+                outfile.write(line)
+
+
+print(new_filename,'.txt')

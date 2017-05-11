@@ -31,4 +31,3 @@ print (pob.var_4)
 
 # Child Object method
 print (cob.var_3)
-

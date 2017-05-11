@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.0 (~/.pyenv/versions/3.5.0/bin/python)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.1 (~/.pyenv/versions/3.5.1/bin/python)" project-jdk-type="Python SDK" />
+>>>>>>> a4254fb1b1cf975a8d4243475002eb34ea4058e7
 </project>

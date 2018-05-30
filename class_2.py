@@ -40,3 +40,5 @@ class new:
         print ("This also print out.")
 
 obj = new()
+
+####

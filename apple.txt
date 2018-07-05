@@ -10,3 +10,4 @@ tuna
 wine
 beer
 sake
+hachimitsu

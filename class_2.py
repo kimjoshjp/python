@@ -3,8 +3,6 @@
 #
 #
 #   Multiple Parent Class
-
-
 #################################
 class Dad:
     dad_1 = "This is Dad."

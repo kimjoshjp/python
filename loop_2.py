@@ -8,7 +8,7 @@ member = {'Josh':18,
        'Alex':13,
        'Kim':40,
        'Kazu':47,
-       #'Dick':55,
+       'Dick':55,
 }
 
 aaa = member.get('Dick', 'Unknown') # If Dick is not listed in member lists then display Unknown

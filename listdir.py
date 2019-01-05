@@ -6,6 +6,7 @@
 
 import os, sys
 
+
 path = "/Users/kazu/GitHub/python/"
 dirs = os.listdir( path )
 

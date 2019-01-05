@@ -2,7 +2,6 @@
 #
 #
 #
-#
 
 # ages and number of seats
 films ={"Dory":[5,5],

@@ -6,7 +6,8 @@
 
 import os, sys
 
-path = "/Users/kazunorif/GitHub/python/"
+
+path = "/Users/kazu/GitHub/python/"
 dirs = os.listdir( path )
 
 for a in dirs:

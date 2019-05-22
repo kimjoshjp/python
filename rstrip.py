@@ -5,7 +5,8 @@
 #
 
 import pandas as pd
-"""
+
+'''
 aLdata = []
 
 with open ('sales.csv') as f:
@@ -15,7 +16,7 @@ with open ('sales.csv') as f:
         aLdata.append(row_string)
 
 print(aLdata)
-"""
+'''
 
 df = pd.read_csv('sales.csv')
 print(df)

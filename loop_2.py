@@ -3,13 +3,19 @@
 #
 #
 #
-member = {'Josh':18,
-       'Matt':23,
-       'Alex':13,
-       'Kim':40,
-       'Kazu':47,
-       'Dick':55,
-}
+"""品目の集計."""
 
-aaa = member.get('Dick', 'Unknown') # If Dick is not listed in member lists then display Unknown
-print ("Dick is %s years old" % aaa)
+count = {}
+
+with open('input/report.csv', encoding='utf-8') as f:
+    for line in f:
+        date, item_name, amount= line.rstrip().split(',')
+        
+        if item_name not in count:
+            count[item_name] = 0
+        
+        count[item_name] += 1
+            
+  
+for key,value in count.items():
+    print(key, ":", value, sep='')

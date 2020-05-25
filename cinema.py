@@ -12,6 +12,10 @@ films ={"Dory":[5,5],
 
 
 while True:
+    
+    for name in films:
+	    print(name)
+
     choice = input("What file would you like to watch?: ").strip().title()
 
     if choice in films:
